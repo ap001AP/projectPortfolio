@@ -8,21 +8,34 @@ function Main() {
   return (
     <div className="container">
       <div className="about-section">
-        <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
-        </div>
         <div className="content">
-          <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
-          <h1>Yuji Sato</h1>
-          <p>Full Stack Engineer</p>
 
-          <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+          <h1>Abhi Patel</h1>
+
+          {/* NEW ROW */}
+          <div className="title-row">
+            <p>Data Engineer</p>
+
+            <div className="social_icons">
+              <a href="https://github.com/ap001AP" target="_blank" rel="noreferrer">
+                <GitHubIcon/>
+              </a>
+              <a href="https://media1.tenor.com/m/gu8O4jWASToAAAAd/caught-in8k-caught-in8k-meme.gif" target="_blank" rel="noreferrer">
+                <LinkedInIcon/>
+              </a>
+            </div>
           </div>
+
+          {/* Mobile Icons (keep this) */}
+          <div className="mobile_social_icons">
+            <a href="https://github.com/ap001AP" target="_blank" rel="noreferrer">
+              <GitHubIcon/>
+            </a>
+            <a href="https://media1.tenor.com/m/gu8O4jWASToAAAAd/caught-in8k-caught-in8k-meme.gif" target="_blank" rel="noreferrer">
+              <LinkedInIcon/>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>

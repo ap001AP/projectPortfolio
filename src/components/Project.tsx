@@ -1,14 +1,8 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import proj24 from '../assets/images/proj24.png';
+import proj22 from '../assets/images/proj22.png';
+import proj033 from '../assets/images/proj033.png';
+import proj21 from '../assets/images/proj21.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,54 +11,24 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/ap001AP/sql-data-lakehouse-project" target="_blank" rel="noreferrer"><img src={proj21} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/ap001AP/sql-data-lakehouse-project" target="_blank" rel="noreferrer"><h2>Data Lakehouse</h2></a>
+                <p>Built a cloud-based Data Lakehouse on Databricks using Medallion Architecture, ingesting and transforming sales data from ERP and CRM sources across Bronze, Silver, and Gold Delta layers, orchestrated through an automated end-to-end Databricks Job pipeline. This is Version 1 of the project — Version 2 is currently in development, expanding the project with CI/CD pipelines, REST APIs, and Kafka for real-time data streaming.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/ap001AP/sql-data-warehouse-project" target="_blank" rel="noreferrer"><img src={proj22} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/ap001AP/sql-data-warehouse-project" target="_blank" rel="noreferrer"><h2>Data Warehouse</h2></a>
+                <p>Built a modern data warehouse on SQL Server that transforms raw ERP and CRM data into analytics-ready insights through a structured Bronze, Silver, and Gold pipeline. The final data modeled into a star schema to report on the sales trends, customer behavior, and product performance.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/ap001AP/hr-dashboard-project" target="_blank" rel="noreferrer"><img src={proj033} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/ap001AP/hr-dashboard-project" target="_blank" rel="noreferrer"><h2>HR Analytics Dashboard</h2></a>
+                <p>I created a Python script to generate a realistic dataset that is used to build an interactive Tableau dashboard. The dashboard allows HR managers to explore workforce demographics, income patterns, and employee performance at both a summary and individual level.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/cmput301-w25/project-theynotlikeus" target="_blank" rel="noreferrer"><img src={proj24} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/cmput301-w25/project-theynotlikeus" target="_blank" rel="noreferrer"><h2>Moods</h2></a>
+                <p>Developed an Android mobile application using Java and Android Studio that serves as a tool to understand and track moods, providing insights into the mental well-being of its users amidst their academic and personal life challenges.</p>
             </div>
         </div>
     </div>

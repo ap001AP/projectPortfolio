@@ -14,12 +14,8 @@
   }
 
   button:hover {
-    background-color: #5000ca;
+    background-color: #ca7200;
     color: white;
-  }
-
-  fieldset {
-    background-color: white;
   }
 }
 
@@ -45,4 +41,56 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+/* DARK MODE - dark inputs, white text */
+.dark-mode .contact-form fieldset {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.dark-mode .contact-form .MuiInputBase-root {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.dark-mode .contact-form .MuiInputBase-input {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
+.dark-mode .contact-form .MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.dark-mode .contact-form .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* LIGHT MODE - white inputs, dark text */
+.light-mode .contact-form .MuiInputBase-root {
+  background-color: white;
+}
+
+.light-mode .contact-form fieldset {
+  border-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.light-mode .contact-form .MuiInputBase-input {
+  color: #0d1116 !important;
+  -webkit-text-fill-color: #0d1116 !important;
+  background-color: white;
+}
+
+.light-mode .contact-form .MuiInputLabel-root {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.success-msg {
+  color: #4caf50;
+  margin-top: 10px;
+}
+
+.error-msg {
+  color: #f44336;
+  margin-top: 10px;
 }
