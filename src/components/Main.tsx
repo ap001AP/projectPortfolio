@@ -14,13 +14,13 @@ function Main() {
 
           {/* NEW ROW */}
           <div className="title-row">
-            <p>Data Engineer</p>
+            <p>Building Data Pipelines & Lakehouses</p>
 
             <div className="social_icons">
               <a href="https://github.com/ap001AP" target="_blank" rel="noreferrer">
                 <GitHubIcon/>
               </a>
-              <a href="https://media1.tenor.com/m/gu8O4jWASToAAAAd/caught-in8k-caught-in8k-meme.gif" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/ap-abhipatel/" target="_blank" rel="noreferrer">
                 <LinkedInIcon/>
               </a>
             </div>
@@ -31,7 +31,7 @@ function Main() {
             <a href="https://github.com/ap001AP" target="_blank" rel="noreferrer">
               <GitHubIcon/>
             </a>
-            <a href="https://media1.tenor.com/m/gu8O4jWASToAAAAd/caught-in8k-caught-in8k-meme.gif" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/ap-abhipatel/" target="_blank" rel="noreferrer">
               <LinkedInIcon/>
             </a>
           </div>

@@ -30,6 +30,8 @@
         display: flex;
         align-items: center;
         gap: 20px;
+        position: relative;
+        left: -105px;
 
         p {
             margin: 0; /* override spacing so it aligns nicely */

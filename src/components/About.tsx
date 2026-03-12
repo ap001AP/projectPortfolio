@@ -7,7 +7,7 @@ function About() {
       <div className="items-container">
         <h1>About Me</h1>
         <p>
-             I am a data engineer with a background in Physics and Computer Science,
+             I am a Physics and Computer Science graduate,
              passionate about designing and building robust data pipelines and modern data architectures.
              From implementing Medallion Architecture on SQL Server and Databricks to creating analytics-ready data models,
              I focus on turning raw data into reliable, business-ready insights.
