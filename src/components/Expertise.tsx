@@ -11,7 +11,11 @@ const labelsFirst = [
     "Delta Lake",
     "Unity Catalog",
     "Docker",
-    "Medallion Architecture"
+    "Medallion Architecture",
+    "PostgreSQL",
+    "Apache Kafka",
+    "GitHub Actions",
+    "Databricks Asset Bundles",
 ];
 
 const labelsSecond = [
@@ -21,6 +25,9 @@ const labelsSecond = [
     "Pandas",
     "NumPy",
     "ETL Pipelines",
+    "pytest",
+    "REST API",
+    "Kafka",
 ];
 
 const labelsThird = [
@@ -40,7 +47,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faBuffer} size="3x"/>
                     <h3>Data Engineering & Architecture</h3>
-                    <p>I have designed and implemented modern data architectures following the Medallion Architecture pattern across both a SQL Server Data Warehouse and a Databricks Data Lakehouse, building reliable Bronze, Silver, and Gold layers to consolidate and serve business-ready data.</p>
+                    <p> I have designed and implemented modern data architectures following Medallion Architecture across a SQL Server Data Warehouse and a Databricks Data Lakehouse, building reliable Bronze, Silver, and Gold layers with real-time streaming via Apache Kafka, CI/CD automation, and infrastructure-as-code using Databricks Asset Bundles.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -52,7 +59,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Data Processing & Transformation</h3>
-                    <p>Built end-to-end ETL pipelines to extract, cleanse, and transform raw data from ERP and CRM source systems. Applied data quality checks, standardization, and normalization using both PySpark and SQL across all pipeline layers.</p>
+                    <p>Built end-to-end ETL pipelines to extract, cleanse, and transform raw data from databases, REST APIs, and real-time Kafka streams. Applied data quality checks, standardization, and normalization using PySpark and SQL across all pipeline layers, with pytest unit testing integrated into the CI/CD pipeline.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
