@@ -13,7 +13,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/ap001AP/sql-data-lakehouse-project" target="_blank" rel="noreferrer"><img src={proj21} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/ap001AP/sql-data-lakehouse-project" target="_blank" rel="noreferrer"><h2>Data Lakehouse</h2></a>
-                <p>Built a production-grade cloud Data Lakehouse on Databricks using Medallion Architecture, ingesting live data from a PostgreSQL database, REST API, and real-time Kafka streams into Bronze Delta tables, applying PySpark transformations in Silver, and delivering a star schema Gold layer governed through Unity Catalog. Orchestrated via Databricks Asset Bundles with a GitHub Actions CI/CD pipeline that automatically tests with pytest and deploys on every push.</p>
+                <p>Built a production-grade Data Lakehouse on Databricks using Medallion Architecture with Bronze, Silver, and Gold Delta layers. Ingests live data from PostgreSQL, REST API, and Kafka streams, applies PySpark and dbt transformations with Great Expectations DQ checks, and trains ML models with MLflow deployed as live REST endpoints. Fully automated via GitHub Actions CI/CD pipeline.</p> 
             </div>
             <div className="project">
                 <a href="https://github.com/ap001AP/sql-data-warehouse-project" target="_blank" rel="noreferrer"><img src={proj22} className="zoom" alt="thumbnail" width="100%"/></a>
